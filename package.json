@@ -1,0 +1,24 @@
+{
+  "name": "caeser-cipher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandile-nkosi/caeser-cipher.git"
+  },
+  "author": "Sandile Nkosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandile-nkosi/caeser-cipher/issues"
+  },
+  "homepage": "https://github.com/sandile-nkosi/caeser-cipher#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  }
+}
