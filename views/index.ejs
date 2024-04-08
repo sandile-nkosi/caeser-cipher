@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caeser-Cipher</title>
+  </head>
+  <body>
+    <h1>Caeser Cipher</h1>
+    <form action="/" method="post">
+      <label for="">Text to encrypt/decrypt</label>
+      <br />
+      <input type="text" name="userText" />
+      <br>
+      <input type="radio" id="encrypt" name="cipher" value="encrypt" />
+      <label for="html">Encrypt</label><br />
+      <input type="radio" id="decrypt" name="cipher" value="decrypt" />
+      <label for="css">Decrypt</label><br />
+      <button type="submit">Go</button>
+    </form>
+
+    <h3>Result: <%= displayText %></h3>
+
+  </body>
+</html>
